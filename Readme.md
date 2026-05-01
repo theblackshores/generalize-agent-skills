@@ -57,7 +57,7 @@ https://github.com/vercel-labs/skills#compatibility
 | `context: fork` | No       | No        | Yes         | No    | No        | No    | No           | No       | No     | No          | No       | No             | No  | No       | No      | No  | No    | No       |
 | Hooks           | No       | No        | Yes         | Yes   | No        | No    | No           | Yes      | No     | No          | No       | No             | No  | No       | No      | No  | No    | No       |
 
-## Related Documents
+## More Documents
 
 - [Getting Started To Agent Coding Tool](./docs/getting-started-to-agent-coding-tool/Readme.md)
 - [Popular Plugins (Skills/MCP's)](./docs/popular-plugins/Readme.md)
