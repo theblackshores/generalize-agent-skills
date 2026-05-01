@@ -61,3 +61,4 @@ https://github.com/vercel-labs/skills#compatibility
 
 - [Getting Started To Agent Coding Tool](./docs/getting-started-to-agent-coding-tool/Readme.md)
 - [Popular Plugins (Skills/MCP's)](./docs/popular-plugins/Readme.md)
+- [Claude.md To Agents.md](./docs/claude-to-agents/Readme.md)
