@@ -7,3 +7,6 @@
 | `~/.claude/CLAUDE.md` | `~/.config/agents/AGENTS.md` |
 | `Claude`              | `Agents`                     |
 | `claude`              | `agents`                     |
+
+News:
+- [Standardize global user-level AGENTS.md](https://github.com/agentsmd/agents.md/issues/91)
