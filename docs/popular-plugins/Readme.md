@@ -73,6 +73,17 @@ Skills include pdf/pptx/xlsx/docx editing, front-end design, poster design, etc.
 /plugin install document-skills@anthropic-agent-skills
 ```
 
+## lsp-setup
+https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/add-lsp-servers
+
+Automatically find the appropriate language server.
+
+> Notes: Deeply integrated with Copilot CLI
+
+```bash
+npx skills add -g github/awesome-copilot@lsp-setup
+```
+
 ## logo-generator-skill
 https://github.com/op7418/logo-generator-skill
 
