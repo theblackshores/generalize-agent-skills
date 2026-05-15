@@ -9,11 +9,11 @@ Project scope MCP is well-suited for enhancing document-type contexts.
 {
   "mcpServers": {
     "patternfly-docs": {
-      "command": "npx"
+      "command": "npx",
       "args": ["-y", "@patternfly/patternfly-mcp@latest"]
     },
     "mui-mcp": {
-      "command": "npx"
+      "command": "npx",
       "args": ["-y", "@mui/mcp@latest"]
     },
     "better-auth": {
