@@ -66,6 +66,77 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
+## 5. Use the Model Only for Judgment Calls
+
+**Use the model for judgment. Use code for determinism.**
+
+- Use the model for classification, drafting, summarization, and extraction.
+- Use code for routing, retries, and deterministic transforms.
+
+If code can answer, code answers.
+
+## 6. Treat Token Budgets as Hard Limits
+
+**Per-task: 4,000 tokens. Per-session: 30,000 tokens.**
+
+- As a budget approaches, summarize the current state and start fresh.
+- Surface any breach. Never overrun silently.
+
+## 7. Surface Conflicts, Don't Average Them
+
+**Choose one pattern. Explain the choice.**
+
+When patterns conflict:
+- Prefer the more recent or better-tested pattern.
+- Explain why it wins.
+- Flag the other for cleanup.
+
+Don't blend conflicting patterns.
+
+## 8. Read Before You Write
+
+**Understand the surrounding contract before changing code.**
+
+Before adding code, read:
+- Exports.
+- Immediate callers.
+- Shared utilities.
+
+"Looks orthogonal" is a dangerous assumption. If you don't understand why code is structured a certain way, ask.
+
+## 9. Tests Verify Intent, Not Just Behavior
+
+**Tests must encode why behavior matters, not just what it does.**
+
+- State the intent or business rule each test protects.
+- A test that can't fail when business logic changes is wrong.
+
+## 10. Checkpoint After Every Significant Step
+
+**Don't continue from a state you can't describe.**
+
+After every significant step, summarize:
+- What was done.
+- What's verified.
+- What's left.
+
+If you lose track, stop and restate.
+
+## 11. Match the Codebase's Conventions
+
+**Conformance beats taste inside the codebase.**
+
+- Follow the codebase's conventions, even if you disagree.
+- If a convention is genuinely harmful, surface it - don't fork silently.
+
+## 12. Fail Loud
+
+**Skipped work and uncertainty are part of the result.**
+
+- "Completed" is wrong if anything was skipped silently.
+- "Tests pass" is wrong if any tests were skipped.
+- Default to surfacing uncertainty, not hiding it.
+
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
