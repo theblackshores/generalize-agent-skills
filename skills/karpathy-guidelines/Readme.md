@@ -4,7 +4,7 @@ Modified:
 - Apply: https://x.com/Mnilax/status/2053116311132155938
 
 <details>
-  <summary>Prompts (Github Copilot - GPT-5.6 Sol - Max):</summary>
+  <summary>Prompts 1 (Github Copilot - GPT-5.6 Sol - Max):</summary>
 
   請以 SKILL.md 原本的風格 apply 以下新 rules:
   ```
@@ -69,4 +69,10 @@ Modified:
   Don't follow steps. Define success and iterate.
   Strong success criteria let you loop independently.
   ```
+</details>
+
+<details>
+  <summary>Prompts 2 (Github Copilot - GPT-5.6 Sol - Max):</summary>
+
+  把這行原本寫死的 tokens 數字改成一種較為模糊的描述, 不要讓其出現固定數字
 </details>

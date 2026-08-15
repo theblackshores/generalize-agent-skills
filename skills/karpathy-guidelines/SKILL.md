@@ -77,7 +77,7 @@ If code can answer, code answers.
 
 ## 6. Treat Token Budgets as Hard Limits
 
-**Per-task: 4,000 tokens. Per-session: 30,000 tokens.**
+**Token budgets are limits, not suggestions.**
 
 - As a budget approaches, summarize the current state and start fresh.
 - Surface any breach. Never overrun silently.
